@@ -9,7 +9,7 @@ def main():
 #    _nowtime=datetime.datetime.today()
 #    message =  ('%s' % _nowtime.strftime('%Y/%m/%d %H:%M:%S') )
     url = "https://notify-api.line.me/api/notify"
-    token = "VQJ8mUdfRf4nR86Vmo1XQZjsBI58fnVpwdjC26ELaaL" ## 岡部メール送信グループ
+    token = os.environ["token_okabe"]
     message='明日socゼミがある場合は[メール送信]と入力してください'
 
     headers = {"Authorization" : "Bearer "+ token}

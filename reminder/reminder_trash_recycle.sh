@@ -4,6 +4,7 @@
 . setting.sh
 echo . setting.sh
 
+source ../env.sh
 ##### 第2,第4の週のみ実行
 ##### reminder.pyプログラムを実行
 date_of_month=`date +%d`

@@ -9,7 +9,7 @@ def main():
 #    _nowtime=datetime.datetime.today()
 #    message =  ('%s' % _nowtime.strftime('%Y/%m/%d %H:%M:%S') )
     url = "https://notify-api.line.me/api/notify"
-    token = "Yna4qPzI3THbZT9oCaCou4OsmcSJxZiqOhN8awW6xW6" ## 東大TPC token
+    token = os.environ["token_todaitpc"]
     text=["お疲れ様です。来週の予定はどうですか。", 
           "みなさん来週のスケジュールはどんな感じ？",
           "来週つくばにいける日はありますか？",
